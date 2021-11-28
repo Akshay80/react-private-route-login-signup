@@ -1,0 +1,108 @@
+.auth-wrapper{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cards1 {
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px !important;
+  width: 25rem !important;
+  border-radius: 8px !important;
+  background: white;
+  box-shadow: 0px 0px 15px 1px rgba(242, 113, 37, 0.74);
+  -webkit-box-shadow: 0px 0px 15px 1px rgba(242, 113, 37, 0.74);
+  -moz-box-shadow: 0px 0px 15px 1px rgba(242, 113, 37, 0.74);
+}
+.card-title1 {
+  color: blue;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+}
+
+h3.card-title1 {
+  margin-bottom: 0rem !important;
+}
+
+.card-title2 {
+  color: blue;
+}
+
+.card-title3 {
+  color: black;
+  text-align: left;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.card-subtitle {
+  text-align: left;
+}
+
+.link {
+  color: green;
+  font-size: 20px;
+  font-weight: bold !important;
+  text-decoration: underline !important;
+}
+
+.link:hover {
+  color: blue;
+}
+
+.logos {
+  font-size: 24px;
+  font-weight: bolder;
+}
+.logos-text {
+  font-size: 16px;
+  margin-top: -10px;
+}
+
+.errors {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 1px;
+  text-align: left;
+}
+ /* Small devices (landscape phones, 576px and up) */
+@media (max-width:400px) {
+  .cards1{
+    width: 20rem!important;
+  }
+}
+@media (max-width:325px) {
+  .cards1{
+    width: 17rem!important;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: unset !important;
+  }
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container {
+    max-width: unset !important;
+  }
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container {
+    max-width: unset !important;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    max-width: unset !important;
+  }
+}
